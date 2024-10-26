@@ -45,8 +45,8 @@ sudo usermod -aG wireshark $(whoami)
 3. Click the "Start Capturing Packets" button (blue shark fin).
 4. Perform some network activities (e.g., browsing the web).
 5. Stop the capture after a few minutes.
-6. Observe the captured packets in Wireshark’s main window.  
-   **Output**: A list of captured packets with details such as source/destination IP, protocol, and length.
+6. Observe the captured packets in Wireshark’s main window.
+**Output**: A list of captured packets with details such as source/destination IP, protocol, and length.
 
 2. **Exercise 2: Applying Filters**
 
