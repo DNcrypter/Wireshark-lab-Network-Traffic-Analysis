@@ -41,47 +41,47 @@ sudo usermod -aG wireshark $(whoami)
 ## Exercises:👨🏾‍💻👨🏾‍💻
 1. **Exercise 1: Capturing Network Traffic**
 
-   - Open Wireshark.
-   - Select the network interface to capture traffic  from (e.g., eth0 or wlan0).
-   - Click the "Start Capturing Packets" button (blue shark fin).
-   - Perform some network activities (e.g., browsing the web).
-   - Stop the capture after a few minutes.
-   - Observe the captured packets in Wireshark’s main window.
+    - Open Wireshark.
+    - Select the network interface to capture traffic  from (e.g., eth0 or wlan0).
+    - Click the "Start Capturing Packets" button (blue shark fin).
+    - Perform some network activities (e.g., browsing the web).
+    - Stop the capture after a few minutes.
+    - Observe the captured packets in Wireshark’s main window.
    **Output**: A list of captured packets with details such as source/destination IP, protocol, and length.
 
 2. **Exercise 2: Applying Filters**
 
-    - Start a new packet capture in Wireshark.
-    - In the filter bar, type http to display only HTTP traffic.
-    - Click "Apply" to filter the results.
-    - Experiment with other filters like tcp, ip.addr == <your_ip>, and dns.
-    - Observe how the displayed packets change based on the applied filters.
+     - Start a new packet capture in Wireshark.
+     - In the filter bar, type http to display only HTTP traffic.
+     - Click "Apply" to filter the results.
+     - Experiment with other filters like tcp, ip.addr == <your_ip>, and dns.
+     - Observe how the displayed packets change based on the applied filters.
     **Output**: Filtered list of packets that match the criteria specified in the filter bar.
 
 3. **Exercise 3: Analyzing HTTP Traffic**
-    - Start a new packet capture in Wireshark.
-    - Open a web browser and visit a website.
-    - Stop the packet capture.
-    - Apply the http filter to display only HTTP traffic.
-    - Select an HTTP GET request packet and inspect its details in the packet details pane.
-    - Analyze the packet to understand the HTTP request headers and content.
+     - Start a new packet capture in Wireshark.
+     - Open a web browser and visit a website.
+     - Stop the packet capture.
+     - Apply the http filter to display only HTTP traffic.
+     - Select an HTTP GET request packet and inspect its details in the packet details pane.
+     - Analyze the packet to understand the HTTP request headers and content.
     **Output**: Detailed view of an HTTP GET request with headers and content.
 
 4. **Exercise 4: Identifying Malicious Traffic**
-    - Download a sample pcap file containing malicious traffic from a reputable source (e.g., Wireshark sample captures).
-    - Open the pcap file in Wireshark.
-    - Apply filters to identify suspicious activities, such as tcp.port == 4444 (commonly used by malware).
-    - Investigate the packets to determine the nature of the malicious activity.
-    - Document your findings and the indicators of compromise (IOCs).
+     - Download a sample pcap file containing malicious traffic from a reputable source (e.g., Wireshark sample captures).
+     - Open the pcap file in Wireshark.
+     - Apply filters to identify suspicious activities, such as tcp.port == 4444 (commonly used by malware).
+     - Investigate the packets to determine the nature of the malicious activity.
+     - Document your findings and the indicators of compromise (IOCs).
     **Output**: Identification of malicious packets and an understanding of their characteristics.
 
 5. **Exercise 5: Extracting Files from Captures**
-    - Start a new packet capture in Wireshark.
-    - Download a file from the internet during the capture.
-    - Stop the packet capture.
-    - pply the http filter and locate the packets related to the file download.
-    - Right-click on one of the packets and select "Follow" > "TCP Stream".
-    - Save the file from the TCP stream for further analysis.
+     - Start a new packet capture in Wireshark.
+     - Download a file from the internet during the capture.
+     - Stop the packet capture.
+     - pply the http filter and locate the packets related to the file download.
+     - Right-click on one of the packets and select "Follow" > "TCP Stream".
+     - Save the file from the TCP stream for further analysis.
     **Output**: The extracted file from the network capture saved on your system.
 
 
