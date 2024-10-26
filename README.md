@@ -6,13 +6,9 @@ Difficulty level : Beginner
         [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue)](https://www.linkedin.com/in/nikhil--chaudhari/)
         [![Medium](https://img.shields.io/badge/Medium-Writeups-black)](https://medium.com/@nikhil-c)
 
-        In this lab i will show you how can we analyse network traffic in wireshark to collect artifacts and chain them.
-
-
-
 ## Introduction 🚀
 
-In this lab, I will show you how network traffic analysis is a vital skill for cybersecurity pros. You will learn to capture, inspect, and understand data packets moving across a network. Using Wireshark,we will learn how we can do real-time network traffic analysis, I will guide you step-by-step on a Linux system. We will analyze network traffic, uncover potential security issues, and dive deep into understanding network protocols.
+In this lab i will show you how can we analyse network traffic in wireshark in linux system. You will learn to capture, inspect, and understand data packets moving across a network. Using Wireshark also learn to analyse traffic and find malicious things. Here, I designed some exercises to help beginner to learn step by step and clear basics of web traffic analysis. please go throgh each lab exercise and pratice them.
 
 ## 🔗Pre-requisites
 - basics understanding of ip addresses and protocols.
