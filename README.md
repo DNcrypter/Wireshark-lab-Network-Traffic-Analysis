@@ -40,9 +40,8 @@ sudo usermod -aG wireshark $(whoami)
 
 ## Exercises:👨🏾‍💻👨🏾‍💻
 1. **Exercise 1: Capturing Network Traffic**
-
-    - Open Wireshark.
-    - Select the network interface to capture traffic  from (e.g., eth0 or wlan0).
+&nbsp;&nbsp; 1. Open Wireshark.
+&nbsp;&nbsp; 2. Select the network interface to capture traffic  from (e.g., eth0 or wlan0).
     - Click the "Start Capturing Packets" button (blue shark fin).
     - Perform some network activities (e.g., browsing the web).
     - Stop the capture after a few minutes.
