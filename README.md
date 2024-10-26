@@ -39,7 +39,7 @@ sudo usermod -aG wireshark $(whoami)
 4. Log-out and log-in back in for the changes to take reflect.
 
 ## Exercises:👨🏾‍💻👨🏾‍💻
-### Exercise 1: Capturing Network Traffic
+### 🏋🏻‍♂️ Exercise 1: Capturing Network Traffic
 
 **Objective**: Learn to capture live network traffic using Wireshark.
 
@@ -52,7 +52,7 @@ sudo usermod -aG wireshark $(whoami)
 
 **Output**: A list of captured packets with details such as source/destination IP, protocol, and length.
 
-### Exercise 2: Applying Filters
+### 🏋🏻‍♂️ Exercise 2: Applying Filters
 
 **Objective**: Use Wireshark filters to narrow down and focus on specific types of traffic.
 
@@ -64,7 +64,7 @@ sudo usermod -aG wireshark $(whoami)
   
 **Output**: Filtered list of packets that match the criteria specified in the filter bar.
 
-### Exercise 3: Analyzing HTTP Traffic
+### 🏋🏻‍♂️ Exercise 3: Analyzing HTTP Traffic
 
 **Objective**: Examine HTTP packets to understand web traffic.
 
@@ -77,7 +77,7 @@ sudo usermod -aG wireshark $(whoami)
 
 **Output**: Detailed view of an HTTP GET request with headers and content.
 
-### Exercise 4: Identifying Malicious Traffic
+### 🏋🏻‍♂️ Exercise 4: Identifying Malicious Traffic
 
 **Objective**: Detect and analyze potential malicious traffic in a network capture.
 
@@ -89,7 +89,7 @@ sudo usermod -aG wireshark $(whoami)
 
 **Output**: Identification of malicious packets and an understanding of their characteristics.
 
-### Exercise 5: Extracting Files from Captures
+### 🏋🏻‍♂️ Exercise 5: Extracting Files from Captures
 
 **Objective**: Extract and analyze files transferred over the network.
 
